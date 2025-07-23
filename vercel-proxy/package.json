@@ -1,0 +1,16 @@
+{
+  "name": "discord-oauth-proxy",
+  "version": "1.0.0",
+  "description": "Vercel proxy for Discord OAuth2",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/oauth2/callback",
+      "dest": "/api/oauth2/callback"
+    }
+  ],
+  "env": {
+    "SERVER_URL": "@server_url"
+  }
+}
